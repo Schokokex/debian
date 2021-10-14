@@ -1,5 +1,7 @@
 # checklist for creating debootstrap
 
+good rule: making a system ready to use
+
 from https://willhaley.com/blog/custom-debian-live-environment/
 
 prepare: 
@@ -34,3 +36,7 @@ mount $btr -o subvol=@debian $mountpoint
 create minimal debian without kernel
 `debootstrap --variant=minbase bullseye $mountpoint http://ftp.us.debian.org/debian`
 
+post apt
+`copy fstab`
+
+`apt install --no-install-recommends flatpak`
