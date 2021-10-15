@@ -1,0 +1,8 @@
+bootscript:
+
+create new snapshot from baseImage, containing a timestamp or hash
+
+make system boot into new snapshot next time
+
+delete old snapshots
+
