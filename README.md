@@ -38,5 +38,5 @@ create minimal debian without kernel
 
 post apt
 `copy fstab`
-
+create proc entry in fstab for gnome
 `apt install --no-install-recommends flatpak`
