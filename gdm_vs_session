@@ -1,95 +1,183 @@
-root@dell3330:/# apt install --no-install-recommends gnome-session
+root@dell3330:/# apt install gnome-shell  
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
 The following additional packages will be installed:
-  adwaita-icon-theme bubblewrap dbus-x11 dconf-gsettings-backend dconf-service dictionaries-common emacsen-common evolution-data-server
-  evolution-data-server-common fontconfig fontconfig-config fonts-dejavu-core gcr gir1.2-accountsservice-1.0 gir1.2-atk-1.0 gir1.2-atspi-2.0
-  gir1.2-freedesktop gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0 gir1.2-gdm-1.0 gir1.2-geoclue-2.0 gir1.2-glib-2.0
-  gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0 gir1.2-gweather-3.0
-  gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0 gir1.2-mutter-7 gir1.2-nm-1.0 gir1.2-nma-1.0 gir1.2-pango-1.0 gir1.2-polkit-1.0
-  gir1.2-rsvg-2.0 gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gjs glib-networking glib-networking-common glib-networking-services gnome-backgrounds
-  gnome-desktop3-data gnome-keyring gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell
-  gnome-shell-common gsettings-desktop-schemas gstreamer1.0-pipewire gstreamer1.0-plugins-base gstreamer1.0-plugins-good gtk-update-icon-cache
-  hicolor-icon-theme hunspell-en-us iso-codes libaa1 libaccountsservice0 libarchive13 libasound2 libasound2-data libaspell15 libassuan0
-  libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0 libavahi-client3 libavahi-common-data libavahi-common3 libavc1394-0
-  libbsd0 libcaca0 libcairo-gobject2 libcairo2 libcamel-1.2-62 libcanberra-gtk3-0 libcanberra0 libcap2-bin libcdparanoia0 libcolord2 libcups2
-  libdatrie1 libdconf1 libdeflate0 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libdv4 libdw1
-  libebackend-1.2-10 libebook-1.2-20 libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1 libedataserver-1.2-25
-  libedataserverui-1.2-2 libedit2 libegl-mesa0 libegl1 libelf1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libfontenc1
-  libfreetype6 libfribidi0 libgbm1 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1 libgdata-common libgdata22 libgdk-pixbuf-2.0-0
-  libgdk-pixbuf-xlib-2.0-0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common libgdm1 libgeoclue-2-0 libgeocode-glib0 libgirepository-1.0-1 libgjs0g
-  libgl1 libgl1-mesa-dri libglapi-mesa libgles2 libglib2.0-bin libglib2.0-data libglvnd0 libglx-mesa0 libglx0 libgnome-autoar-0-0
-  libgnome-bluetooth13 libgnome-desktop-3-19 libgoa-1.0-0b libgoa-1.0-common libgpm2 libgraphene-1.0-0 libgraphite2-3 libgstreamer-gl1.0-0
-  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0 libgtk-3-common libgudev-1.0-0 libgweather-3-16 libgweather-common libharfbuzz-icu0
-  libharfbuzz0b libhunspell-1.7-0 libhyphen0 libibus-1.0-5 libical3 libice6 libicu67 libiec61883-0 libimobiledevice6 libinput-bin libinput10
-  libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0 libjpeg62-turbo libjson-glib-1.0-0 libjson-glib-1.0-common liblcms2-2 libllvm11 libltdl7
-  libmanette-0.2-0 libmd0 libmozjs-78-0 libmp3lame0 libmpdec3 libmpg123-0 libmtdev1 libmutter-7-0 libncurses6 libnma-common libnma0 libnotify4
-  libnspr4 libnss3 libogg0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0
-  libpciaccess0 libphonenumber8 libpipewire-0.3-0 libpipewire-0.3-modules libpixman-1-0 libplist3 libpng16-16 libprotobuf23 libproxy1v5
-  libpulse-mainloop-glib0 libpulse0 libpython3-stdlib libpython3.9-minimal libpython3.9-stdlib libraw1394-11 librest-0.7-0 librsvg2-2
-  libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsm6 libsndfile1 libsoup-gnome2.4-1 libsoup2.4-1
-  libspa-0.2-modules libspeex1 libsqlite3-0 libstartup-notification0 libtag1v5 libtag1v5-vanilla libtdb1 libtext-iconv-perl libthai-data libthai0
-  libtheora0 libtiff5 libtwolame0 libunwind8 libupower-glib3 libusb-1.0-0 libusbmuxd6 libv4l-0 libv4lconvert0 libvisual-0.4-0 libvorbis0a
-  libvorbisenc2 libvorbisfile3 libvpx6 libvulkan1 libwacom-common libwacom2 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
-  libwayland-server0 libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libwrap0 libx11-6 libx11-data
-  libx11-xcb1 libxau6 libxaw7 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-render0 libxcb-res0 libxcb-shm0
-  libxcb-sync1 libxcb-util1 libxcb-xfixes0 libxcb-xkb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2
-  libxft2 libxi6 libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxkbfile1 libxkbregistry0 libxml2 libxmu6 libxpm4 libxrandr2 libxrender1
-  libxshmfence1 libxslt1.1 libxt6 libxtst6 libxxf86vm1 libz3-4 media-types mutter-common p11-kit p11-kit-modules pinentry-gnome3 pipewire
-  pipewire-bin python3 python3-minimal python3.9 python3.9-minimal sensible-utils shared-mime-info sound-theme-freedesktop ucf upower x11-common
-  x11-xkb-utils xdg-dbus-proxy xkb-data xserver-common xwayland
+  accountsservice acl adwaita-icon-theme alsa-topology-conf alsa-ucm-conf apache2-bin apg aspell aspell-en at-spi2-core avahi-daemon bind9-host
+  bind9-libs bluez bolt bsdextrautils bubblewrap ca-certificates cheese-common chrome-gnome-shell colord colord-data cpp cpp-10 cracklib-runtime
+  cups-pk-helper dbus-user-session dbus-x11 dconf-cli dconf-gsettings-backend dconf-service desktop-base desktop-file-utils dictionaries-common
+  dirmngr distro-info-data docbook-xml emacsen-common enchant-2 evolution-data-server evolution-data-server-common file fontconfig
+  fontconfig-config fonts-dejavu fonts-dejavu-core fonts-dejavu-extra fonts-quicksand fuse gcr gdm3 gettext-base gir1.2-accountsservice-1.0
+  gir1.2-atk-1.0 gir1.2-atspi-2.0 gir1.2-freedesktop gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0 gir1.2-gdm-1.0
+  gir1.2-geoclue-2.0 gir1.2-glib-2.0 gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0
+  gir1.2-gweather-3.0 gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0 gir1.2-malcontent-0 gir1.2-mutter-7 gir1.2-nm-1.0 gir1.2-nma-1.0
+  gir1.2-notify-0.7 gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0 gir1.2-secret-1 gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gjs gkbd-capplet
+  glib-networking glib-networking-common glib-networking-services gnome-backgrounds gnome-control-center gnome-control-center-data
+  gnome-desktop3-data gnome-keyring gnome-keyring-pkcs11 gnome-menus gnome-online-accounts gnome-session gnome-session-bin gnome-session-common
+  gnome-settings-daemon gnome-settings-daemon-common gnome-shell-common gnome-user-docs gnome-user-share gnupg gnupg-l10n gnupg-utils gpg
+  gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm groff-base gsettings-desktop-schemas gstreamer1.0-clutter-3.0 gstreamer1.0-gl
+  gstreamer1.0-libav gstreamer1.0-pipewire gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+  gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hunspell-en-us i965-va-driver ibus ibus-data ibus-gtk ibus-gtk3 iio-sensor-proxy
+  im-config intel-media-va-driver ipp-usb iso-codes keyboard-configuration liba52-0.7.4 libaa1 libaacs0 libaccountsservice0 libaom0
+  libapache2-mod-dnssd libappstream-glib8 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libarchive13 libasound2 libasound2-data
+  libasound2-plugins libaspell15 libass9 libassuan0 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0 libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1 libavc1394-0 libavcodec58 libavfilter7 libavformat58 libavresample4
+  libavutil56 libayatana-appindicator3-1 libayatana-ido3-0.4-0 libayatana-indicator3-7 libbdplus0 libblas3 libbluray2 libbs2b0 libbsd0 libcaca0
+  libcairo-gobject2 libcairo2 libcamel-1.2-62 libcanberra-gtk3-0 libcanberra-gtk3-module libcanberra-pulse libcanberra0 libcap2-bin libcdio19
+  libcdparanoia0 libcheese-gtk25 libcheese8 libchromaprint1 libclutter-1.0-0 libclutter-1.0-common libclutter-gst-3.0-0 libclutter-gtk-1.0-0
+  libcodec2-0.9 libcogl-common libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1 libcolord2 libcolorhug2 libcrack2 libcups2 libcurl4
+  libdaemon0 libdatrie1 libdav1d4 libdbusmenu-glib4 libdbusmenu-gtk3-4 libdc1394-25 libdca0 libdconf1 libde265-0 libdeflate0 libdrm-amdgpu1
+  libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libdv4 libdvdnav4 libdvdread8 libdw1 libebackend-1.2-10 libebook-1.2-20
+  libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1 libedataserver-1.2-25 libedataserverui-1.2-2 libedit2
+  libegl-mesa0 libegl1 libelf1 libenchant-2-2 libepoxy0 libevdev2 libexif12 libfaad2 libfftw3-double3 libflac8 libflatpak0 libflite1
+  libfluidsynth2 libfontconfig1 libfontenc1 libfreetype6 libfribidi0 libfstrm0 libfuse2 libgail-common libgail18 libgbm1 libgck-1-0
+  libgcr-base-3-1 libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgdbm-compat4 libgdbm6 libgdk-pixbuf-2.0-0 libgdk-pixbuf-xlib-2.0-0
+  libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgdm1 libgee-0.8-2 libgeoclue-2-0 libgeocode-glib0 libges-1.0-0 libgfortran5
+  libgirepository-1.0-1 libgjs0g libgl1 libgl1-mesa-dri libglapi-mesa libgles2 libglib2.0-bin libglib2.0-data libglvnd0 libglx-mesa0 libglx0
+  libgme0 libgnome-autoar-0-0 libgnome-bluetooth13 libgnome-desktop-3-19 libgnomekbd-common libgnomekbd8 libgoa-1.0-0b libgoa-1.0-common
+  libgoa-backend-1.0-1 libgomp1 libgpgme11 libgphoto2-6 libgphoto2-l10n libgphoto2-port12 libgpm2 libgraphene-1.0-0 libgraphite2-3 libgsm1
+  libgsound0 libgssdp-1.2-0 libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0
+  libgtk-3-bin libgtk-3-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtop-2.0-11 libgtop2-common libgudev-1.0-0 libgupnp-1.2-0
+  libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libgupnp-igd-1.0-4 libgusb2 libgweather-3-16 libgweather-common libhandy-1-0 libharfbuzz-icu0
+  libharfbuzz0b libhunspell-1.7-0 libhyphen0 libibus-1.0-5 libical3 libice6 libicu67 libiec61883-0 libieee1284-3 libigdgmm11 libilmbase25
+  libimobiledevice6 libinput-bin libinput10 libinstpatch-1.0-2 libisl23 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0 libjpeg62-turbo
+  libjson-glib-1.0-0 libjson-glib-1.0-common libkate1 libksba8 liblapack3 liblcms2-2 libldb2 liblilv-0-0 libllvm11 liblmdb0
+  liblocale-gettext-perl libltc11 libltdl7 liblua5.3-0 libmagic-mgc libmagic1 libmalcontent-0-0 libmalcontent-ui-0-0 libmanette-0.2-0
+  libmaxminddb0 libmd0 libmediaart-2.0-0 libmfx1 libmjpegutils-2.1-0 libmms0 libmodplug1 libmozjs-78-0 libmp3lame0 libmpc3 libmpcdec6 libmpdec3
+  libmpeg2-4 libmpeg2encpp-2.1-0 libmpfr6 libmpg123-0 libmplex2-2.1-0 libmtdev1 libmutter-7-0 libmysofa1 libnautilus-extension1a libncurses6
+  libnice10 libnma-common libnma0 libnorm1 libnotify4 libnpth0 libnspr4 libnss-mdns libnss-myhostname libnss3 libnuma1 libofa0 libogg0
+  libopenal-data libopenal1 libopencore-amrnb0 libopencore-amrwb0 libopenexr25 libopenjp2-7 libopenmpt0 libopenni2-0 libopus0 liborc-0.4-0
+  libostree-1-1 libpam-cap libpam-gnome-keyring libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0 libpci3 libpciaccess0
+  libperl5.32 libpgm-5.3-0 libphonenumber8 libpipeline1 libpipewire-0.3-0 libpipewire-0.3-modules libpixman-1-0 libplist3 libplymouth5
+  libpng16-16 libpocketsphinx3 libpoppler-glib8 libpoppler102 libpopt0 libpostproc55 libprocps8 libprotobuf-c1 libprotobuf23 libproxy1v5
+  libpulse-mainloop-glib0 libpulse0 libpulsedsp libpwquality-common libpwquality1 libpython3-stdlib libpython3.9 libpython3.9-minimal
+  libpython3.9-stdlib libquadmath0 librabbitmq4 libraw1394-11 librest-0.7-0 librsvg2-2 librsvg2-common librubberband2 librygel-core-2.6-2
+  librygel-db-2.6-2 librygel-renderer-2.6-2 librygel-server-2.6-2 libsamplerate0 libsane-common libsane1 libsbc1 libsdl2-2.0-0 libsecret-1-0
+  libsecret-common libsensors-config libsensors5 libserd-0-0 libshine3 libshout3 libsidplay1v5 libsm6 libsmbclient libsnappy1v5 libsndfile1
+  libsndio7.0 libsnmp-base libsnmp40 libsodium23 libsord-0-0 libsoundtouch1 libsoup-gnome2.4-1 libsoup2.4-1 libsoxr0 libspa-0.2-modules
+  libspandsp2 libspeex1 libspeexdsp1 libsphinxbase3 libsqlite3-0 libsratom-0-0 libsrt1.4-gnutls libsrtp2-1 libssh-gcrypt-4
+  libstartup-notification0 libstemmer0d libswresample3 libswscale5 libtag1v5 libtag1v5-vanilla libtalloc2 libtdb1 libtevent0 libtext-iconv-perl
+  libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libuchardet0 libudfread0 libudisks2-0 libunwind8 libupower-glib3 libusb-1.0-0 libusbmuxd6
+  libuv1 libv4l-0 libv4lconvert0 libva-drm2 libva-x11-2 libva2 libvdpau-va-gl1 libvdpau1 libvidstab1.1 libvisual-0.4-0 libvo-aacenc0
+  libvo-amrwbenc0 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx6 libvulkan1 libwacom-bin libwacom-common libwacom2 libwavpack1
+  libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwbclient0 libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2 libwebpmux3
+  libwebrtc-audio-processing1 libwildmidi2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libwrap0 libx11-6 libx11-data libx11-xcb1 libx264-160
+  libx265-192 libxatracker2 libxau6 libxaw7 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-present0
+  libxcb-randr0 libxcb-render-util0 libxcb-render0 libxcb-res0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1 libxcb-xfixes0 libxcb-xkb1
+  libxcb-xv0 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2 libxft2 libxi6 libxinerama1
+  libxkbcommon-x11-0 libxkbcommon0 libxkbfile1 libxkbregistry0 libxklavier16 libxml2 libxmu6 libxmuu1 libxpm4 libxrandr2 libxrender1
+  libxshmfence1 libxslt1.1 libxss1 libxt6 libxtst6 libxv1 libxvidcore4 libxvmc1 libxxf86vm1 libyaml-0-2 libyelp0 libz3-4 libzbar0 libzmq5
+  libzvbi-common libzvbi0 lsb-release malcontent malcontent-gui man-db media-types mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers
+  mobile-broadband-provider-info mutter-common netbase network-manager-gnome ocl-icd-libopencl1 openssl p11-kit p11-kit-modules pci.ids perl
+  perl-modules-5.32 pinentry-gnome3 pipewire pipewire-bin plymouth plymouth-label pocketsphinx-en-us poppler-data procps psmisc pulseaudio
+  pulseaudio-module-bluetooth pulseaudio-utils python3 python3-cairo python3-certifi python3-chardet python3-cups python3-cupshelpers
+  python3-dbus python3-distro python3-gi python3-ibus-1.0 python3-idna python3-ldb python3-minimal python3-pkg-resources python3-requests
+  python3-six python3-smbc python3-talloc python3-urllib3 python3.9 python3.9-minimal realmd rtkit rygel samba-libs sane-utils sensible-utils
+  sgml-base sgml-data shared-mime-info sound-theme-freedesktop switcheroo-control system-config-printer-common system-config-printer-udev
+  timgm6mb-soundfont ucf unzip update-inetd upower usb.ids usbmuxd va-driver-all vdpau-driver-all wamerican x11-common x11-xkb-utils
+  x11-xserver-utils xauth xdg-dbus-proxy xdg-desktop-portal xdg-desktop-portal-gtk xfonts-base xfonts-encodings xfonts-utils xkb-data xml-core
+  xserver-common xserver-xephyr xserver-xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-input-libinput xserver-xorg-input-wacom
+  xserver-xorg-legacy xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-intel
+  xserver-xorg-video-nouveau xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware xwayland yelp
+  yelp-xsl zenity zenity-common
 Suggested packages:
-  ispell | aspell | hunspell wordlist evolution desktop-base usbguard gir1.2-telepathyglib-0.12 gir1.2-telepathylogger-0.2 gvfs hunspell
-  openoffice.org-hunspell | openoffice.org-core isoquery lrzip libasound2-plugins alsa-utils aspell libcanberra-gtk0 libcanberra-pulse colord
-  cups-common libdv-bin oss-compat libenchant-2-voikko gpm libvisual-0.4-plugins gstreamer1.0-tools libusbmuxd-tools jackd2 liblcms2-utils
-  opus-tools pciutils pulseaudio libraw1394-doc librsvg2-bin lm-sensors speex gstreamer1.0-alsa pinentry-doc python3-doc python3-tk python3-venv
-  python3.9-venv python3.9-doc binutils binfmt-support
-Recommended packages:
-  librsvg2-common procps libpam-gnome-keyring gnome-keyring-pkcs11 iio-sensor-proxy pulseaudio x11-xserver-utils bolt chrome-gnome-shell gdm3
-  gkbd-capplet gnome-control-center gnome-menus gnome-user-docs ibus switcheroo-control unzip gstreamer1.0-x alsa-ucm-conf alsa-topology-conf
-  aspell-en | aspell-dictionary | aspell6a-dictionary at-spi2-core libcanberra-gtk3-module libpam-cap enchant-2 libgdk-pixbuf2.0-bin
-  gstreamer1.0-gl libgtk-3-bin usbmuxd ca-certificates mesa-vulkan-drivers | vulkan-icd libwacom-bin gstreamer1.0-plugins-bad
-  xdg-desktop-portal-gtk gstreamer1.0-libav dbus-user-session xfonts-base xauth
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser aspell-doc spellutils avahi-autoipd chromium | chromium-browser firefox
+  cpp-doc gcc-10-locales gnome | kde-standard | xfce4 | wmaker tor docbook docbook-dsssl docbook-xsl docbook-defguide evolution gnome-orca
+  libpam-fprintd gnome-software | gnome-packagekit gstreamer1.0-pulseaudio libcanberra-gtk-module usbguard gir1.2-telepathyglib-0.12
+  gir1.2-telepathylogger-0.2 parcimonie xloadimage scdaemon groff frei0r-plugins gvfs hunspell openoffice.org-hunspell | openoffice.org-core
+  i965-va-driver-shaders ibus-clutter ibus-doc isoquery lrzip alsa-utils libbluray-bdj libcanberra-gtk0 cups-common libdv-bin oss-compat
+  libdvdcss2 libenchant-2-voikko libfftw3-bin libfftw3-dev libgd-tools gdbm-l10n gphoto2 gpm libvisual-0.4-plugins gstreamer1.0-tools
+  libusbmuxd-tools jackd2 liblcms2-utils mmdb-bin avahi-autoipd | zeroconf libportaudio2 opus-tools pciutils libraw1394-doc librsvg2-bin hplip
+  xdg-utils lm-sensors serdi sidplay-base sndiod snmp-mibs-downloader sordi speex gstreamer1.0-alsa libwildmidi-config apparmor less
+  network-manager-openconnect-gnome network-manager-openvpn-gnome network-manager-vpnc-gnome network-manager-pptp-gnome opencl-icd perl-doc
+  libterm-readline-gnu-perl | libterm-readline-perl-perl make libtap-harness-archive-perl pinentry-doc plymouth-themes poppler-utils ghostscript
+  fonts-japanese-mincho | fonts-ipafont-mincho fonts-japanese-gothic | fonts-ipafont-gothic fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+  pavumeter pavucontrol paprefs python3-doc python3-tk python3-venv python-dbus-doc python3-dbus-dbg python3-setuptools python3-cryptography
+  python3-openssl python3-socks python-requests-doc python3.9-venv python3.9-doc binutils binfmt-support rygel-playbin rygel-preferences
+  rygel-ruih rygel-tracker tumbler unpaper sgml-base-doc perlsgml w3-recs opensp libxml2-utils gnome-software fluid-soundfont-gm zip
+  nvidia-vdpau-driver nvidia-tesla-440-vdpau-driver nvidia-tesla-418-vdpau-driver nvidia-legacy-390xx-vdpau-driver
+  nvidia-legacy-340xx-vdpau-driver nickle cairo-5c xorg-docs-core evince debhelper xfonts-100dpi | xfonts-75dpi xfonts-scalable xinput
+  firmware-amd-graphics xserver-xorg-video-r128 xserver-xorg-video-mach64 firmware-misc-nonfree
 The following NEW packages will be installed:
-  adwaita-icon-theme bubblewrap dbus-x11 dconf-gsettings-backend dconf-service dictionaries-common emacsen-common evolution-data-server
-  evolution-data-server-common fontconfig fontconfig-config fonts-dejavu-core gcr gir1.2-accountsservice-1.0 gir1.2-atk-1.0 gir1.2-atspi-2.0
-  gir1.2-freedesktop gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0 gir1.2-gdm-1.0 gir1.2-geoclue-2.0 gir1.2-glib-2.0
-  gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0 gir1.2-gweather-3.0
-  gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0 gir1.2-mutter-7 gir1.2-nm-1.0 gir1.2-nma-1.0 gir1.2-pango-1.0 gir1.2-polkit-1.0
-  gir1.2-rsvg-2.0 gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gjs glib-networking glib-networking-common glib-networking-services gnome-backgrounds
-  gnome-desktop3-data gnome-keyring gnome-session gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common
-  gnome-shell gnome-shell-common gsettings-desktop-schemas gstreamer1.0-pipewire gstreamer1.0-plugins-base gstreamer1.0-plugins-good
-  gtk-update-icon-cache hicolor-icon-theme hunspell-en-us iso-codes libaa1 libaccountsservice0 libarchive13 libasound2 libasound2-data
-  libaspell15 libassuan0 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0 libavahi-client3 libavahi-common-data
-  libavahi-common3 libavc1394-0 libbsd0 libcaca0 libcairo-gobject2 libcairo2 libcamel-1.2-62 libcanberra-gtk3-0 libcanberra0 libcap2-bin
-  libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1 libdeflate0 libdrm-amdgpu1 libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1
-  libdrm2 libdv4 libdw1 libebackend-1.2-10 libebook-1.2-20 libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1
-  libedataserver-1.2-25 libedataserverui-1.2-2 libedit2 libegl-mesa0 libegl1 libelf1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1
-  libfontenc1 libfreetype6 libfribidi0 libgbm1 libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1 libgdata-common libgdata22 libgdk-pixbuf-2.0-0
-  libgdk-pixbuf-xlib-2.0-0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common libgdm1 libgeoclue-2-0 libgeocode-glib0 libgirepository-1.0-1 libgjs0g
-  libgl1 libgl1-mesa-dri libglapi-mesa libgles2 libglib2.0-bin libglib2.0-data libglvnd0 libglx-mesa0 libglx0 libgnome-autoar-0-0
-  libgnome-bluetooth13 libgnome-desktop-3-19 libgoa-1.0-0b libgoa-1.0-common libgpm2 libgraphene-1.0-0 libgraphite2-3 libgstreamer-gl1.0-0
-  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0 libgtk-3-common libgudev-1.0-0 libgweather-3-16 libgweather-common libharfbuzz-icu0
-  libharfbuzz0b libhunspell-1.7-0 libhyphen0 libibus-1.0-5 libical3 libice6 libicu67 libiec61883-0 libimobiledevice6 libinput-bin libinput10
-  libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0 libjpeg62-turbo libjson-glib-1.0-0 libjson-glib-1.0-common liblcms2-2 libllvm11 libltdl7
-  libmanette-0.2-0 libmd0 libmozjs-78-0 libmp3lame0 libmpdec3 libmpg123-0 libmtdev1 libmutter-7-0 libncurses6 libnma-common libnma0 libnotify4
-  libnspr4 libnss3 libogg0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0
-  libpciaccess0 libphonenumber8 libpipewire-0.3-0 libpipewire-0.3-modules libpixman-1-0 libplist3 libpng16-16 libprotobuf23 libproxy1v5
-  libpulse-mainloop-glib0 libpulse0 libpython3-stdlib libpython3.9-minimal libpython3.9-stdlib libraw1394-11 librest-0.7-0 librsvg2-2
-  libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsm6 libsndfile1 libsoup-gnome2.4-1 libsoup2.4-1
-  libspa-0.2-modules libspeex1 libsqlite3-0 libstartup-notification0 libtag1v5 libtag1v5-vanilla libtdb1 libtext-iconv-perl libthai-data libthai0
-  libtheora0 libtiff5 libtwolame0 libunwind8 libupower-glib3 libusb-1.0-0 libusbmuxd6 libv4l-0 libv4lconvert0 libvisual-0.4-0 libvorbis0a
-  libvorbisenc2 libvorbisfile3 libvpx6 libvulkan1 libwacom-common libwacom2 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1
-  libwayland-server0 libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libwrap0 libx11-6 libx11-data
-  libx11-xcb1 libxau6 libxaw7 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-randr0 libxcb-render0 libxcb-res0 libxcb-shm0
-  libxcb-sync1 libxcb-util1 libxcb-xfixes0 libxcb-xkb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2
-  libxft2 libxi6 libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxkbfile1 libxkbregistry0 libxml2 libxmu6 libxpm4 libxrandr2 libxrender1
-  libxshmfence1 libxslt1.1 libxt6 libxtst6 libxxf86vm1 libz3-4 media-types mutter-common p11-kit p11-kit-modules pinentry-gnome3 pipewire
-  pipewire-bin python3 python3-minimal python3.9 python3.9-minimal sensible-utils shared-mime-info sound-theme-freedesktop ucf upower x11-common
-  x11-xkb-utils xdg-dbus-proxy xkb-data xserver-common xwayland
-0 upgraded, 335 newly installed, 0 to remove and 0 not upgraded.
-Need to get 208 MB of archives.
-After this operation, 681 MB of additional disk space will be used.
-Do you want to continue? [Y/n] n
+  accountsservice acl adwaita-icon-theme alsa-topology-conf alsa-ucm-conf apache2-bin apg aspell aspell-en at-spi2-core avahi-daemon bind9-host
+  bind9-libs bluez bolt bsdextrautils bubblewrap ca-certificates cheese-common chrome-gnome-shell colord colord-data cpp cpp-10 cracklib-runtime
+  cups-pk-helper dbus-user-session dbus-x11 dconf-cli dconf-gsettings-backend dconf-service desktop-base desktop-file-utils dictionaries-common
+  dirmngr distro-info-data docbook-xml emacsen-common enchant-2 evolution-data-server evolution-data-server-common file fontconfig
+  fontconfig-config fonts-dejavu fonts-dejavu-core fonts-dejavu-extra fonts-quicksand fuse gcr gdm3 gettext-base gir1.2-accountsservice-1.0
+  gir1.2-atk-1.0 gir1.2-atspi-2.0 gir1.2-freedesktop gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdkpixbuf-2.0 gir1.2-gdm-1.0
+  gir1.2-geoclue-2.0 gir1.2-glib-2.0 gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0
+  gir1.2-gweather-3.0 gir1.2-harfbuzz-0.0 gir1.2-ibus-1.0 gir1.2-json-1.0 gir1.2-malcontent-0 gir1.2-mutter-7 gir1.2-nm-1.0 gir1.2-nma-1.0
+  gir1.2-notify-0.7 gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0 gir1.2-secret-1 gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gjs gkbd-capplet
+  glib-networking glib-networking-common glib-networking-services gnome-backgrounds gnome-control-center gnome-control-center-data
+  gnome-desktop3-data gnome-keyring gnome-keyring-pkcs11 gnome-menus gnome-online-accounts gnome-session gnome-session-bin gnome-session-common
+  gnome-settings-daemon gnome-settings-daemon-common gnome-shell gnome-shell-common gnome-user-docs gnome-user-share gnupg gnupg-l10n gnupg-utils
+  gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm groff-base gsettings-desktop-schemas gstreamer1.0-clutter-3.0 gstreamer1.0-gl
+  gstreamer1.0-libav gstreamer1.0-pipewire gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+  gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hunspell-en-us i965-va-driver ibus ibus-data ibus-gtk ibus-gtk3 iio-sensor-proxy
+  im-config intel-media-va-driver ipp-usb iso-codes keyboard-configuration liba52-0.7.4 libaa1 libaacs0 libaccountsservice0 libaom0
+  libapache2-mod-dnssd libappstream-glib8 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libarchive13 libasound2 libasound2-data
+  libasound2-plugins libaspell15 libass9 libassuan0 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0 libavahi-client3
+  libavahi-common-data libavahi-common3 libavahi-core7 libavahi-glib1 libavc1394-0 libavcodec58 libavfilter7 libavformat58 libavresample4
+  libavutil56 libayatana-appindicator3-1 libayatana-ido3-0.4-0 libayatana-indicator3-7 libbdplus0 libblas3 libbluray2 libbs2b0 libbsd0 libcaca0
+  libcairo-gobject2 libcairo2 libcamel-1.2-62 libcanberra-gtk3-0 libcanberra-gtk3-module libcanberra-pulse libcanberra0 libcap2-bin libcdio19
+  libcdparanoia0 libcheese-gtk25 libcheese8 libchromaprint1 libclutter-1.0-0 libclutter-1.0-common libclutter-gst-3.0-0 libclutter-gtk-1.0-0
+  libcodec2-0.9 libcogl-common libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1 libcolord2 libcolorhug2 libcrack2 libcups2 libcurl4
+  libdaemon0 libdatrie1 libdav1d4 libdbusmenu-glib4 libdbusmenu-gtk3-4 libdc1394-25 libdca0 libdconf1 libde265-0 libdeflate0 libdrm-amdgpu1
+  libdrm-common libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdrm2 libdv4 libdvdnav4 libdvdread8 libdw1 libebackend-1.2-10 libebook-1.2-20
+  libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1 libedataserver-1.2-25 libedataserverui-1.2-2 libedit2
+  libegl-mesa0 libegl1 libelf1 libenchant-2-2 libepoxy0 libevdev2 libexif12 libfaad2 libfftw3-double3 libflac8 libflatpak0 libflite1
+  libfluidsynth2 libfontconfig1 libfontenc1 libfreetype6 libfribidi0 libfstrm0 libfuse2 libgail-common libgail18 libgbm1 libgck-1-0
+  libgcr-base-3-1 libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgdbm-compat4 libgdbm6 libgdk-pixbuf-2.0-0 libgdk-pixbuf-xlib-2.0-0
+  libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgdm1 libgee-0.8-2 libgeoclue-2-0 libgeocode-glib0 libges-1.0-0 libgfortran5
+  libgirepository-1.0-1 libgjs0g libgl1 libgl1-mesa-dri libglapi-mesa libgles2 libglib2.0-bin libglib2.0-data libglvnd0 libglx-mesa0 libglx0
+  libgme0 libgnome-autoar-0-0 libgnome-bluetooth13 libgnome-desktop-3-19 libgnomekbd-common libgnomekbd8 libgoa-1.0-0b libgoa-1.0-common
+  libgoa-backend-1.0-1 libgomp1 libgpgme11 libgphoto2-6 libgphoto2-l10n libgphoto2-port12 libgpm2 libgraphene-1.0-0 libgraphite2-3 libgsm1
+  libgsound0 libgssdp-1.2-0 libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0
+  libgtk-3-bin libgtk-3-common libgtk2.0-0 libgtk2.0-bin libgtk2.0-common libgtop-2.0-11 libgtop2-common libgudev-1.0-0 libgupnp-1.2-0
+  libgupnp-av-1.0-2 libgupnp-dlna-2.0-3 libgupnp-igd-1.0-4 libgusb2 libgweather-3-16 libgweather-common libhandy-1-0 libharfbuzz-icu0
+  libharfbuzz0b libhunspell-1.7-0 libhyphen0 libibus-1.0-5 libical3 libice6 libicu67 libiec61883-0 libieee1284-3 libigdgmm11 libilmbase25
+  libimobiledevice6 libinput-bin libinput10 libinstpatch-1.0-2 libisl23 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0 libjpeg62-turbo
+  libjson-glib-1.0-0 libjson-glib-1.0-common libkate1 libksba8 liblapack3 liblcms2-2 libldb2 liblilv-0-0 libllvm11 liblmdb0
+  liblocale-gettext-perl libltc11 libltdl7 liblua5.3-0 libmagic-mgc libmagic1 libmalcontent-0-0 libmalcontent-ui-0-0 libmanette-0.2-0
+  libmaxminddb0 libmd0 libmediaart-2.0-0 libmfx1 libmjpegutils-2.1-0 libmms0 libmodplug1 libmozjs-78-0 libmp3lame0 libmpc3 libmpcdec6 libmpdec3
+  libmpeg2-4 libmpeg2encpp-2.1-0 libmpfr6 libmpg123-0 libmplex2-2.1-0 libmtdev1 libmutter-7-0 libmysofa1 libnautilus-extension1a libncurses6
+  libnice10 libnma-common libnma0 libnorm1 libnotify4 libnpth0 libnspr4 libnss-mdns libnss-myhostname libnss3 libnuma1 libofa0 libogg0
+  libopenal-data libopenal1 libopencore-amrnb0 libopencore-amrwb0 libopenexr25 libopenjp2-7 libopenmpt0 libopenni2-0 libopus0 liborc-0.4-0
+  libostree-1-1 libpam-cap libpam-gnome-keyring libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpangoxft-1.0-0 libpci3 libpciaccess0
+  libperl5.32 libpgm-5.3-0 libphonenumber8 libpipeline1 libpipewire-0.3-0 libpipewire-0.3-modules libpixman-1-0 libplist3 libplymouth5
+  libpng16-16 libpocketsphinx3 libpoppler-glib8 libpoppler102 libpopt0 libpostproc55 libprocps8 libprotobuf-c1 libprotobuf23 libproxy1v5
+  libpulse-mainloop-glib0 libpulse0 libpulsedsp libpwquality-common libpwquality1 libpython3-stdlib libpython3.9 libpython3.9-minimal
+  libpython3.9-stdlib libquadmath0 librabbitmq4 libraw1394-11 librest-0.7-0 librsvg2-2 librsvg2-common librubberband2 librygel-core-2.6-2
+  librygel-db-2.6-2 librygel-renderer-2.6-2 librygel-server-2.6-2 libsamplerate0 libsane-common libsane1 libsbc1 libsdl2-2.0-0 libsecret-1-0
+  libsecret-common libsensors-config libsensors5 libserd-0-0 libshine3 libshout3 libsidplay1v5 libsm6 libsmbclient libsnappy1v5 libsndfile1
+  libsndio7.0 libsnmp-base libsnmp40 libsodium23 libsord-0-0 libsoundtouch1 libsoup-gnome2.4-1 libsoup2.4-1 libsoxr0 libspa-0.2-modules
+  libspandsp2 libspeex1 libspeexdsp1 libsphinxbase3 libsqlite3-0 libsratom-0-0 libsrt1.4-gnutls libsrtp2-1 libssh-gcrypt-4
+  libstartup-notification0 libstemmer0d libswresample3 libswscale5 libtag1v5 libtag1v5-vanilla libtalloc2 libtdb1 libtevent0 libtext-iconv-perl
+  libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libuchardet0 libudfread0 libudisks2-0 libunwind8 libupower-glib3 libusb-1.0-0 libusbmuxd6
+  libuv1 libv4l-0 libv4lconvert0 libva-drm2 libva-x11-2 libva2 libvdpau-va-gl1 libvdpau1 libvidstab1.1 libvisual-0.4-0 libvo-aacenc0
+  libvo-amrwbenc0 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx6 libvulkan1 libwacom-bin libwacom-common libwacom2 libwavpack1
+  libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwbclient0 libwebkit2gtk-4.0-37 libwebp6 libwebpdemux2 libwebpmux3
+  libwebrtc-audio-processing1 libwildmidi2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libwrap0 libx11-6 libx11-data libx11-xcb1 libx264-160
+  libx265-192 libxatracker2 libxau6 libxaw7 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-present0
+  libxcb-randr0 libxcb-render-util0 libxcb-render0 libxcb-res0 libxcb-shape0 libxcb-shm0 libxcb-sync1 libxcb-util1 libxcb-xfixes0 libxcb-xkb1
+  libxcb-xv0 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxfont2 libxft2 libxi6 libxinerama1
+  libxkbcommon-x11-0 libxkbcommon0 libxkbfile1 libxkbregistry0 libxklavier16 libxml2 libxmu6 libxmuu1 libxpm4 libxrandr2 libxrender1
+  libxshmfence1 libxslt1.1 libxss1 libxt6 libxtst6 libxv1 libxvidcore4 libxvmc1 libxxf86vm1 libyaml-0-2 libyelp0 libz3-4 libzbar0 libzmq5
+  libzvbi-common libzvbi0 lsb-release malcontent malcontent-gui man-db media-types mesa-va-drivers mesa-vdpau-drivers mesa-vulkan-drivers
+  mobile-broadband-provider-info mutter-common netbase network-manager-gnome ocl-icd-libopencl1 openssl p11-kit p11-kit-modules pci.ids perl
+  perl-modules-5.32 pinentry-gnome3 pipewire pipewire-bin plymouth plymouth-label pocketsphinx-en-us poppler-data procps psmisc pulseaudio
+  pulseaudio-module-bluetooth pulseaudio-utils python3 python3-cairo python3-certifi python3-chardet python3-cups python3-cupshelpers
+  python3-dbus python3-distro python3-gi python3-ibus-1.0 python3-idna python3-ldb python3-minimal python3-pkg-resources python3-requests
+  python3-six python3-smbc python3-talloc python3-urllib3 python3.9 python3.9-minimal realmd rtkit rygel samba-libs sane-utils sensible-utils
+  sgml-base sgml-data shared-mime-info sound-theme-freedesktop switcheroo-control system-config-printer-common system-config-printer-udev
+  timgm6mb-soundfont ucf unzip update-inetd upower usb.ids usbmuxd va-driver-all vdpau-driver-all wamerican x11-common x11-xkb-utils
+  x11-xserver-utils xauth xdg-dbus-proxy xdg-desktop-portal xdg-desktop-portal-gtk xfonts-base xfonts-encodings xfonts-utils xkb-data xml-core
+  xserver-common xserver-xephyr xserver-xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-input-libinput xserver-xorg-input-wacom
+  xserver-xorg-legacy xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-intel
+  xserver-xorg-video-nouveau xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware xwayland yelp
+  yelp-xsl zenity zenity-common
+0 upgraded, 733 newly installed, 0 to remove and 0 not upgraded.
+Need to get 449 MB of archives.
+After this operation, 1508 MB of additional disk space will be used.
+Do you want to continue? [Y/n] n    
 Abort.
