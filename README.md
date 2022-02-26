@@ -36,7 +36,14 @@ mount $btr -o subvol=@debian $mountpoint
 create minimal debian without kernel
 `debootstrap --variant=minbase bullseye $mountpoint http://ftp.us.debian.org/debian`
 
+`chroot $mountpoint /bin/bash`
+
+on my nix system i had to set the PATH variable within chroot
+`PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games
+
 post apt
+
 `copy fstab`
 create proc entry in fstab for gnome
 `apt install --no-install-recommends flatpak`
+
