@@ -34,7 +34,7 @@ mount $btr -o subvol=@debian $mountpoint
 ```
 
 create minimal debian without kernel
-`debootstrap --variant=minbase bullseye $mountpoint http://ftp.us.debian.org/debian`
+`debootstrap --variant=minbase bullseye $mountpoint http://ftp.dk.debian.org/debian`
 
 `chroot $mountpoint /bin/bash`
 
